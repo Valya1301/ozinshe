@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px; /* Отступ от хедера */
+}
+
+.container1 {
+    background-color: rgba(143, 146, 161, 0.05); /* Фон */
+    border-radius: 20px 20px 0 0; /* Закругление верхних углов */
+    margin-top: 32px;
+    
+    width: 872px;
+    height: 2864px;
+    box-sizing: border-box;
+}
+.top {
+    display: flex;
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: flex-start; /* Выравниваем по левому краю */
+    margin-bottom: 40px;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+
+.projectText {
+    color: rgba(143, 146, 161, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px; /* Увеличенный размер шрифта для заголовка */
+    margin-left: 39px; /* Отступ между проектом и заголовком */
+    margin-top: 5px;
+
+}
+
+
+.iconContainer {
+    position: relative; /* Позволяет позиционировать элементы внутри */
+}
+
+.square {
+    width: 30px; /* Ширина квадрата */
+    height: 30px; /* Высота квадрата */
+    background-color: rgba(143, 146, 161, 0.1); /* Цвет квадрата */
+    position: absolute; /* Позволяет наложить квадрат на изображение */
+    left: 0; /* Позиция по горизонтали */
+    top: 0; /* Позиция по вертикали */
+    border-radius: 5px; /* Закругленные углы (по желанию) */
+    z-index: 0; /* Положение под изображением */
+    margin-left: 32px;
+    margin-top: -2px;
+}
+
+
+.addButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E2DFC;
+    border: none;
+    border-radius: 16px;
+    width: 134px;
+    height: 38px;
+    margin-left: auto;
+    padding: 12px 8px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.addButton:hover {
+    background-color: #6524cf;
+}
+
+.inputLabel2 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 55px;
+    color: rgba(143, 146, 161, 1);
+    margin-top: -7px;
+    position: absolute;
+    background-color: white;
+}
+
+.select1 {
+    width: 190px;
+    height: 46px;
+    padding:11px 16px 11px 24px;
+        border-radius: 16px;
+    border: 1px solid rgba(23, 23, 23, 0.6);
+    appearance: none; /* Убираем стандартный вид селекта */
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-left: 32px;
+    background-image: url('../assets/Icon\ -\ R2.svg'); 
+    background-size: 24px; /* Размер стрелки */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-position: right 10px center; /* Позиция стрелки */
+}
+
+
+.arrowIcon3 {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.arrowIcon4{
+  width: 20px;
+  height: 20px;
+margin-left: 37px;
+margin-top: 3px;
+
+}
+.infoContainer {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 24px;
+    width: 824px;
+    height: 528px;
+    margin-left: 24px;
+    box-sizing: border-box;
+}
+
+.infoText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #171717;
+    margin: 32px 0 32px 16px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end; /* Выравнивание кнопок по правому краю */
+    margin-top: 152px; /* Отступ сверху для кнопок */
+    margin-right: 32px;
+    gap: 8px;
+    border-radius: 16px;
+}
+
+.cancelButton {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    background-color: rgba(143, 146, 161, 0.1);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.cancelButton:hover {
+    background-color: rgba(84, 86, 96, 0.1);
+}
+
+.infoBox {
+    display: flex; /* Добавляем flexbox */
+    align-items: center; /* Центрируем содержимое по вертикали */
+    margin-bottom: 20px; /* Добавьте отступ, если нужно */
+}
+
+
+.addSeriesButton {
+     /* Цвет кнопки "Добавить серию" */
+    color: rgba(0, 82, 204, 1); /* Цвет текста */
+    border: none;
+    border-radius: 8px;
+   
+    margin-top: 16px; /* Отступ сверху */
+    cursor: pointer;
+    margin-left: 32px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+.seasonContainer {
+    width: 708px;
+    height: 46px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    padding: 12px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(143, 146, 161, 1);
+    margin: 16px 0; /* Отступы сверху и снизу */
+    margin-left: 32px;
+    box-sizing: border-box;
+    background-color: rgba(143, 146, 161, 0.05);
+}
+.removeIcon {
+    margin-left: 502px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+}
+.seasonText {
+    font-size: 14px; /* Размер шрифта */
+    color: rgba(143, 146, 161, 1); /* Цвет текста */
+    margin-right: 8px; /* Отступ справа от текста */
+    margin-top: 11px;
+}
+
+.deleteIcon {
+    width: 16px; /* Размер иконки удаления */
+    height: 16px;
+    cursor: pointer; /* Указатель при наведении */
+}
+
+.addEpisode {
+    color: #7E2DFC; /* Синий цвет текста */
+    margin-left: 32px; /* Отступ слева */
+    cursor: pointer; /* Указатель при наведении */
+}
+
+.selectContainer {
+    display: flex;
+    flex-direction: column; /* Элементы расположены вертикально */
+    margin-bottom: 16px; /* Отступ снизу */
+}
+
+.seasons1 {
+    margin-top: 16px; /* Отступ сверху для текста "1 сезон" */
+    font-size: 14px; /* Размер шрифта */
+    color: rgba(23, 23, 23, 1); /* Цвет текста */
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 32px;
+    font-family: Roboto, sans-serif;
+    
+}
+
+.backButton {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    background-color: rgba(143, 146, 161, 0.1);
+    color: rgb(0, 0, 0);
+    margin-right: auto; /* Это позволит кнопке "Назад" быть слева */
+    margin-left: 32px;
+    font-weight: 700;
+}
+
+.backButton:hover {
+    background-color: rgba(84, 86, 96, 0.1);
+}

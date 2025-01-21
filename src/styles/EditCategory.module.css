@@ -1,0 +1,111 @@
+.modalOverlay {
+    position: fixed; /* Фиксируем позицию, чтобы модальное окно оставалось на месте */
+    top: 0; /* Привязываем к верхней части экрана */
+    left: 0; /* Привязываем к левой стороне экрана */
+    right: 0; /* Привязываем к правой стороне экрана */
+    bottom: 0; /* Привязываем к нижней части экрана */
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    display: flex; /* Используем Flexbox для центрирования содержимого */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    z-index: 1001; /* Выше, чем z-index хедера */
+}
+
+.modalHeader {
+    display: flex; /* Используем Flexbox для размещения заголовка и кнопки закрытия */
+    justify-content: space-between; /* Размещаем элементы по краям */
+    align-items: center; /* Центрируем элементы по вертикали */
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 23px;
+    z-index: 1002; /* Выше, чем z-index хедера */
+}
+
+.modal {
+    background-color: white; /* Белый фон модального окна */
+    border-radius: 15px; /* Закругление углов */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Тень для эффекта глубины */
+    width: 594px; /* Ширина модального окна */
+    height: 492px;
+    position: relative; /* Для абсолютного позиционирования кнопки закрытия */
+}
+
+.modal h2 {
+    font-family: "Roboto", sans-serif; /* Шрифт заголовка */
+    font-weight: 700; /* Жирность шрифта */
+    font-size: 18px; /* Размер шрифта заголовка */
+    margin: 0; /* Убираем стандартные отступы */
+}
+
+.modal .divider {
+    height: 1px; /* Высота полосы */
+    background-color: rgba(143, 146, 161, 1); /* Цвет полосы */
+    opacity: 10%;
+}
+
+.searchInput {
+    font-size: 14px; /* Размер шрифта в поле ввода */
+    border: none; /* Убираем бордер у поля ввода */
+    border-radius: 25px; /* Закругляем углы поля ввода */
+    outline: none; /* Убираем обводку при фокусировке */
+    background-color: rgba(143, 146, 161, 0.05); /* Светлый серый фон для поля ввода */
+    width: 510px; /* Поле ввода занимает всё доступное пространство */
+    height: 46px; /* Высота поля ввода */
+    margin-left: 32px; /* Внутренние отступы слева и справа */
+    margin-top: 32px; /* Отступ сверху для поля ввода */
+    padding-left: 20px; /* Отступ слева для сдвига текста */
+}
+
+.buttonContainer {
+    display: flex; /* Используем Flexbox для размещения кнопок в строку */
+    
+    margin-top: 32px; /* Отступ сверху для кнопок */
+}
+
+.addButton{
+    margin-left: 149px;
+    width: 134px;
+    height: 38px;
+    gap: 8px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+.cancelButton {
+    width: 134px;
+    height: 38px;
+   margin-left: 8px;
+   border: none;
+   border-radius: 50px;
+   font-size: 16px;
+}
+.addButton {
+    background-color: #7E2DFC; /* Цвет кнопки "Добавить" */
+    color: white; /* Цвет текста кнопки "Добавить" */
+}
+
+.cancelButton {
+    background-color: rgba(143, 146, 161, 0.1); /* Цвет кнопки "Отмена" */
+    color: rgb(0, 0, 0); /* Цвет текста кнопки "Отмена" */
+}
+
+.addButton:hover {
+    background-color: #6524cf; /* Темный цвет для эффекта при наведении на кнопку "Добавить" */
+}
+.cancelButton:hover {
+    background-color: rgba(84, 86, 96, 0.1);
+}
+
+
+.closeButton {
+    background: none; /* Убираем фон кнопки закрытия */
+    border: none; /* Убираем бордер у кнопки закрытия */
+    cursor: pointer; /* Курсор меняется на указатель при наведении */
+    font-size: 18px; /* Размер крестика */
+    margin-right: 24px;
+    
+}
+
+.closeButton:hover {
+    color: #6524cf; 
+}

@@ -1,0 +1,113 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 24px 0 21px 0;
+    border-radius: 8px;
+    width: 574px; 
+    height: 445px; /* Измените размер по желанию */
+    text-align: center; /* Центрируем текст */
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeIcon {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+}
+
+.separator {
+    margin: 23px 0 32px;
+    opacity: 10%;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.userImage {
+    width: 100px; /* Размер изображения */
+    height: 100px; /* Размер изображения */
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.modalTitle {
+    font-family: 'Roboto', sans-serif; /* Указанный шрифт */
+    font-size: 20px; /* Размер шрифта заголовка */
+    font-weight: 700; /* Полужирный текст */
+    color: #333; /* Цвет текста заголовка */
+    text-align: left; /* Выравнивание текста по левому краю */
+    margin-left: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.userName {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    color: #333; /* Черный цвет для имени */
+    text-align: center; /* Выравнивание по центру */
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.userEmail, .userPhone, .userBirthDate {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(143, 146, 161, 1); /* Серый цвет для остальных данных */
+    text-align: center; /* Выравнивание по центру */
+    margin-bottom: 8px; /* Отступ снизу для всех */
+    margin-top: 0;
+
+}
+.closeButton {
+    width: 134px; /* Фиксированная ширина */
+    height: 38px; /* Высота */
+    padding: 8px 24px; /* Отступы */
+    border-radius: 16px; /* Радиус границы */
+    background-color: rgba(126, 45, 252, 1); /* Цвет фона */
+    color: white; /* Цвет текста */
+    font-family: 'Roboto', sans-serif; /* Шрифт */
+    font-size: 16px; /* Размер шрифта */
+    font-weight: 700; /* Полужирный текст */
+    line-height: 22px; /* Высота строки */
+    letter-spacing: -0.4px; /* Межбуквенный интервал */
+    text-align: center; /* Выравнивание текста по центру */
+    border: none; /* Убираем границу */
+    cursor: pointer; /* Указываем, что это кнопка */
+    opacity: 1; /* Полная непрозрачность */
+    transition: background-color 0.3s; /* Плавный переход цвета */
+    margin-top: 32px;
+}
+
+.closeButton:hover {
+    background-color: rgba(100, 25, 200, 1); /* Цвет при наведении */
+}

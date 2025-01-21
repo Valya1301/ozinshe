@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px; /* Отступ от хедера */
+}
+
+.container1 {
+    
+    background-color: rgba(143, 146, 161, 0.05);
+    border-radius: 20px 20px 0 0;
+    margin-top: 32px;
+    width: 1190px;
+    height: 2864px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #171717CC;
+    margin-top: 3px;
+}
+
+.addbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E2DFC;
+    gap: 5px;
+    border: none;
+    border-radius: 16px;
+    padding: 8px;
+    width: 120px;
+    height: 40px;
+    margin-right: 48px;
+    margin-left: auto;
+}
+
+.addicon {
+    width: 24px;
+    height: 24px;
+}
+
+.addtext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.rolesWrapper {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет переносить элементы на новую строку */
+    gap: 18px; /* Отступы между карточками */
+    margin-top: 40px; /* Отступ сверху для карточек */
+    margin-left: 48px;
+}
+
+.block {
+    background-color: #fff;
+    border-radius: 16px;
+    width: 538px; /* Ширина карточки */
+    height: 138px; /* Позволяет высоте адаптироваться к содержимому */
+    display: flex;
+    flex-direction: column; /* Вертикальная компоновка */
+    
+    padding: 16px; /* Отступы внутри карточки */
+    box-sizing: border-box; /* Учитывает паддинги в ширине и высоте */
+}
+
+.rolesContainer {
+    display: flex;
+    flex-direction: column; /* Вертикальная компоновка внутри карточки */
+    gap: 10px; /* Отступы между элементами внутри контейнера */
+    margin-top: 5px;
+}
+
+.roleTitle {
+    margin-bottom: 16px; /* Отступ снизу для заголовка */
+}
+
+.roleItem1, .roleItem2, .roleItem3 {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+}
+
+.checkIcon {
+    width: 16px; /* Размер иконки */
+    height: 16px; /* Размер иконки */
+    margin-right: 4px; /* Отступ между иконкой и текстом */
+}
+
+.grayText {
+    color: #A0A0A0; /* Цвет серого текста */
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    text-align: left;
+}
+
+ .categoryTitle3, .categoryTitle4 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.2px;
+    text-align: left;
+}
+
+.categoryTitle1 {
+    position: static;
+    font-family: Roboto;
+    font-style: normal;
+    color: #171717;
+    flex: none;
+    flex-grow: 0;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0;
+    
+}
+.categoryTitle2 {
+    position: static;
+    font-family: Roboto;
+    font-style: normal;
+    color: #171717;
+    flex: none;
+    flex-grow: 0;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 5px;
+    
+}
+.blockicone {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    margin-left: 264px;
+    
+}
+
+.blockicone1 {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+   
+    margin-left: auto;
+}

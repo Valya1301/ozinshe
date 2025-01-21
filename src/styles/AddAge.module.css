@@ -1,0 +1,177 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+}
+
+.modal {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 574px;
+    height: 491px;
+}
+.dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.previewImage {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.modal h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.modal .divider {
+    height: 1px;
+    background-color: rgba(143, 146, 161, 1);
+    opacity: 0.1;
+    margin: 10px 0; /* Отступы */
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between; /* Размещаем элементы по краям */
+    align-items: center; /* Выравнивание по центру по вертикали */
+    margin: 24px 0; /* Отступы сверху и снизу */
+    padding: 0 24px; /* Горизонтальные отступы */
+    z-index: 1002;
+
+}
+
+.inputContainer {
+    width: 510px; /* Устанавливаем ширину 100% */
+     /* Максимальная ширина, чтобы контролировать размер */
+    height: 46px;
+    padding: 0 12px;
+    border:none;
+    background-color: rgba(143, 146, 161, 0.05);
+    border-radius: 16px;
+    outline: none;
+    margin: 16px auto; /* Центрирование по горизонтали */
+    box-sizing: border-box; /* Учитываем отступы в общей ширине */
+    margin-left: 32px;
+    font-weight: 500;
+}
+
+.input {
+    width: 100%; /* Устанавливаем ширину 100% */
+    max-width: 484px; /* Максимальная ширина, чтобы контролировать размер */
+    height: 46px;
+    padding: 0 12px;
+    border: 1px solid rgba(23, 23, 23, 0.6);
+    border-radius: 16px;
+    outline: none;
+    margin: 0; /* Центрирование по горизонтали */
+    box-sizing: border-box; /* Учитываем отступы в общей ширине */
+    font-weight: 500;
+}
+
+.uploadedImage {
+    width: 100%; /* Устанавливаем ширину изображения равной 100% */
+    height: auto; /* Высота будет автоматически подстраиваться в зависимости от ширины */
+    object-fit: contain; /* Сохраняем пропорции изображения при его масштабировании */
+    border-radius: 8px; /* Скругление углов для более плавного отображения */
+}
+
+.imageDropZone {
+    width: 100%; /* Задаем ширину контейнера 100% */
+    max-width: 510px; /* Ограничиваем максимальную ширину */
+    height: 200px; /* Фиксированная высота */
+    border: 2px dashed #ccc; /* Пунктирная рамка для визуализации области загрузки */
+    border-radius: 8px; /* Скругление углов */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative; /* Для возможного позиционирования текста поверх изображения */
+    margin-left: 32px;
+}
+
+
+
+
+.innerSquare {
+    background-color: rgba(143, 146, 161, 0.05); /* Цвет фона маленького квадрата */
+    width: 48px; /* Ширина маленького квадрата */
+    height: 48px; /* Высота маленького квадрата */
+    border-radius: 10px; /* Закругление углов */
+    position: absolute; /* Позиционирование относительно родителя */
+    top: 20%; /* Позиция по вертикали (настраивайте при необходимости) */
+    left: 50%; /* Центрируем по горизонтали */
+    transform: translate(-50%, -50%); /* Центрируем квадрат */
+    display: flex; /* Для центровки иконки */
+    justify-content: center; /* Горизонтальная центровка */
+    align-items: center; /* Вертикальная центровка */
+    margin-top: 25px;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-between; /* Расположение кнопок по краям */
+    margin-top: 32px; /* Отступ сверху */
+}
+
+
+
+.addButton {
+    background-color: #7E2DFC;
+    color: white;
+    margin-left: 149px;
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer; /* Указатель для кнопки */
+    font-weight: 700;
+}
+
+.cancelButton {
+    background-color: rgba(143, 146, 161, 0.1);
+    color: rgb(0, 0, 0);
+    margin-right: 149px;
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer; /* Указатель для кнопки */
+    font-weight: 700;
+}
+
+.addButton:hover {
+    background-color: #6524cf;
+}
+
+.cancelButton:hover {
+    background-color: rgba(84, 86, 96, 0.1);
+}
+
+.closeButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+.closeButton:hover {
+    color: #6524cf;
+}

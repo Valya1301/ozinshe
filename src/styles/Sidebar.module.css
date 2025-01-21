@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 32px; /* Отступ от хедера */
+    padding-left: 206px; /* Отступ слева, равный ширине сайдбара */
+}
+
+.list {
+    margin-top: 44px;
+    background-color: #fff; /* Фон для сайдбара */
+    width: 250px; /* Ширина сайдбара */
+    height: 1024px; /* Высота сайдбара */
+    border-radius: 20px 0 0 20px; /* Закругление только левого угла */
+    position: relative;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px; /* Отступ между пунктами */
+    width: 250px; /* Ширина пункта */
+    height: 56px; /* Высота пункта */
+    padding: 12px 48px 12px 24px; /* Паддинги (сверху, справа, снизу, слева) */
+    box-sizing: border-box; /* Учитываем паддинги в размеры */
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000; /* Цвет текста по умолчанию */
+    opacity: 1; /* Убираем прозрачность */
+    transition: color 0.3s; /* Плавный переход цвета */
+    line-height: 24px;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px; /* Отступ 16 пикселей между иконкой и текстом */
+    transition: filter 0.3s; /* Плавный переход для иконки */
+}
+
+.text1 {
+    font-family: "Inter", sans-serif;
+    line-height: 24px; /* Убедитесь, что line-height соответствует высоте текста */
+    white-space: nowrap; /* Запрет переноса текста на новую строку */
+}
+
+
+
+.box1:hover {
+    color: #7E2DFC; /* Цвет текста при наведении */
+    cursor: pointer;
+}
+.box1:hover .icons {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(96%) saturate(7479%) hue-rotate(262deg) brightness(100%) contrast(98%);}
+
+.active {
+    color: #7E2DFC; /* Цвет текста для активного пункта */
+}
+
+.active .icons {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(96%) saturate(7479%) hue-rotate(262deg) brightness(100%) contrast(98%);
+}
+
+
+
+.active .indicator {
+    background-color: #7E2DFC; /* Цвет индикатора для активного пункта */
+}
+
+
+.selectorIcon {
+    width: 3px;
+height: 32px;
+top: 12px;
+gap: 0px;
+border-radius: 0px 100px 100px 0px;
+opacity: 0px;
+
+    margin-right: 10px; /* Расстояние между Selector и текстом */
+    position: absolute; /* Позиционирование в начале */
+    left: 0px; /* Настройте отступ от левого края */
+}
+
+.box1 {
+    position: relative; /* Обязательно, чтобы работал абсолютный position */
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    padding-left: 24px; /* Сдвиг текста и иконок, чтобы освободить место для Selector */
+}

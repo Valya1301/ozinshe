@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px; /* Отступ от хедера */
+}
+
+.container1 {
+    
+    background-color: rgba(143, 146, 161, 0.05);
+    border-radius: 20px 20px 0 0;
+    margin-top: 32px;
+    width: 1190px;
+    height: 2864px;
+
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 8px;
+    margin-left: 48px; /* Убираем отступ слева */
+    margin-top: 40px;
+}
+
+.text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #171717CC;
+    margin-top: 43px;
+    margin-left: 8px;
+}
+
+.addbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E2DFC;
+    gap: 10px;
+    border: none;
+    border-radius: 16px;
+    padding: 8px;
+    width: 120px;
+    height: 40px;
+    margin-right: 48px;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.addicon {
+    width: 24px;
+    height: 24px;
+}
+
+.addtext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.addbutton:hover {
+    background-color: #6524cf;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет карточкам переноситься на следующую строку */
+    margin-top: 40px;
+    gap: 18px; /* Отступы между блоками */
+    margin-left: 48px; /* Отступ слева */
+    
+}
+
+.block {
+    
+    background-color: #fff;
+    border-radius: 15px;
+    width: 260px; /* Ширина карточки, можно уменьшить для 4 в ряд */
+    height: 86px;
+    display: flex;
+    flex-direction: column; /* Убедитесь, что содержимое вертикально */
+    
+}
+
+.categoryTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    
+    margin-left: 16px; /* Сдвигаем заголовок влево */
+    margin-top: 16px;
+}
+
+.categoryInfo {
+    display: flex; /* Используем Flexbox */
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: flex-start;
+    margin-top: 16px; /* Изменил отступ для улучшения выравнивания */
+}
+
+.viewicon {
+    width: 16px; /* Ширина иконки просмотра */
+    height: 16px; /* Высота иконки просмотра */
+    margin-left: 16px;     
+}
+
+.views {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9CA3AF;
+    margin: 0 5px; /* Убираем лишние отступы */
+}
+
+.blockicone {
+    width: 16px; /* Ширина иконок */
+    height: 16px; /* Высота иконок */
+    margin-left: auto; /* Сдвигаем вправо */
+    margin-right: 16px; /* Увеличиваем отступ между иконками */
+}
+
+.blockicone1 {
+    height: 16px;
+    width: 16px; /* Увеличиваем отступ между иконками */
+    margin-right: 16px;
+}
+
+/* Стили для модального окна */

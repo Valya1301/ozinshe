@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px; /* Отступ от хедера */
+}
+
+.container1 {
+    background-color: rgba(143, 146, 161, 0.05);
+    border-radius: 20px 20px 0 0;
+    margin-top: 32px;
+    width: 1190px;
+    height: 2864px;
+}
+
+
+.images {
+    width: auto;
+    height: auto;
+} 
+.top {
+    display: flex;
+    align-items: center;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #171717CC;
+    margin-top: 3px;
+}
+
+.addbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E2DFC;
+    gap: 8px;
+    border: none;
+    border-radius: 16px;
+    padding: 8px;
+    width: 120px;
+    height: 40px;
+    margin-right: 48px;
+    margin-left: auto;
+}
+
+.addicon {
+    width: 24px;
+    height: 24px;
+}
+
+.addtext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.addbutton:hover {
+    background-color: #6524cf;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет карточкам переноситься на следующую строку */
+    margin-top: 40px;
+    margin-left: 48px; /* Отступ слева для всего контейнера */
+    margin-right: 54px; /* Отступ справа для всего контейнера */
+    gap: 16px; /* Отступы между блоками */
+    width: 1088px;
+    height: 242px;
+    box-sizing: border-box;
+}
+
+.block {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 260px; /* Ширина карточки */
+    height: 242px; /* Высота карточки */
+    display: flex;
+    flex-direction: column; /* Убедитесь, что содержимое вертикально */
+    box-sizing: border-box;
+}
+
+
+.categoryTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+    
+}
+
+.categoryInfo {
+    display: flex;                /* Используем Flexbox */
+    align-items: center;         /* Центрируем по вертикали */
+    justify-content: flex-start;
+    margin-top: 16px; /* Изменил отступ для улучшения выравнивания */
+}
+
+.viewicon {
+    width: 16px;                 /* Ширина иконки просмотра */
+    height: 16px;                /* Высота иконки просмотра */  
+    gap: 4px;      /* Отступ между иконкой и числом */
+}
+
+.views {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9CA3AF;
+    margin: 0 5px;              /* Убираем лишние отступы */
+}
+
+.blockicone {
+    width: 16px;                 /* Ширина иконок */
+    height: 16px;                /* Высота иконок */
+    margin-left: auto;   
+    margin-right: 16px;      /* Сдвигаем вправо */
+}
+
+.blockicone1 {
+    height: 16px;
+    width: 16px;
+             /* Увеличиваем отступ между иконками */
+}

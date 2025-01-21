@@ -1,0 +1,225 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    z-index: 1002;
+}
+
+
+    .modal {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        width: 574px;
+        height: 456px;
+        padding: 20px; /* Добавлен отступ для содержимого */
+    }
+    
+    .modal h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        margin: 0;
+    }
+    
+    .modal .divider {
+        height: 1px;
+        background-color: rgba(143, 146, 161, 1);
+        opacity: 0.1; /* Исправлено на 0.1 */
+        margin: 10px 0; /* Добавляем отступы */
+    }
+    
+    .inputContainer {
+        display: flex;
+        flex-direction: column; /* Меняем направление на колонку */
+        margin-bottom: 20px; /* Отступ между селектами и зоной изображения */
+        outline: none;
+    }
+    
+    .selectContainer {
+        position: relative; /* Для позиционирования стрелки */
+        width: 510px; /* Занимает всю ширину контейнера */
+        margin-bottom: 16px; /* Отступ между селектами */
+        margin-left: 32px;
+        outline: none;
+    }
+    
+    .customSelect1 {
+        width: 100%; /* Занимает всю ширину */
+        height: 46px;
+        padding: 12px 40px 12px 12px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        appearance: none; /* Убираем стандартный вид селекта */
+        background-color: rgba(143, 146, 161, 0.05);
+        font-size: 14px;
+        outline: none;
+        margin-top: 32px;
+    }
+    .customSelect2 {
+        width: 100%; /* Занимает всю ширину */
+        height: 46px;
+        padding: 12px 40px 12px 12px;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        appearance: none; /* Убираем стандартный вид селекта */
+        background-color: rgba(143, 146, 161, 0.05);
+        font-size: 14px;
+        outline: none;
+        margin-top: 16px;
+    }
+    
+    .customArrow1 {
+        position: absolute;
+        right: 10px;
+        top: 72%;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 24px;
+        background-image: url('../assets/Icon - R (1).svg'); /* Путь к изображению стрелки */
+        background-size: cover;
+        pointer-events: none; /* Игнорировать события мыши */
+        gap: 16px;
+    }
+    .customArrow2 {
+        position: absolute;
+        right: 10px;
+        top: 66%;
+        transform: translateY(-50%);
+        width: 24px;
+        height: 24px;
+        background-image: url('../assets/Icon - R (1).svg'); /* Путь к изображению стрелки */
+        background-size: cover;
+        pointer-events: none; /* Игнорировать события мыши */
+        gap: 16px;
+    }
+    
+    
+.imageDropZone {
+    border: 2px dashed #ccc; /* Граница для зоны загрузки изображения */
+    border-radius: 10px; /* Закругление углов */
+    background-color: rgba(143, 146, 161, 0.05); /* Фоновый цвет */
+    width: 510px; /* Ширина общего квадрата */
+    height: 168px; /* Высота общего квадрата */
+    position: relative; /* Для позиционирования внутренних элементов */
+    text-align: center; /* Выравнивание текста по центру */
+    cursor: pointer; /* Курсор как указатель */
+    margin: 20px auto; /* Центрирование по горизонтали */
+}
+    
+    .innerSquare {
+        background-color: rgba(143, 146, 161, 0.05); /* Цвет фона маленького квадрата */
+        width: 48px; /* Ширина маленького квадрата */
+        height: 48px; /* Высота маленького квадрата */
+        border-radius: 10px; /* Закругление углов */
+        position: absolute; /* Позиционирование относительно родителя */
+        top: 20%; /* Позиция по вертикали (настраивайте при необходимости) */
+        left: 50%; /* Центрируем по горизонтали */
+        transform: translate(-50%, -50%); /* Центрируем квадрат */
+        display: flex; /* Для центровки иконки */
+        justify-content: center; /* Горизонтальная центровка */
+        align-items: center; /* Вертикальная центровка */
+        margin-top: 40px;
+    }
+    
+    
+    
+    
+    .droppedImage {
+        max-width: 100%;
+        max-height: 200px;
+    }
+    
+    .square {
+        width: 50px; /* Ширина квадрата */
+        height: 50px; /* Высота квадрата */
+        background-color: rgba(143, 146, 161, 1); /* Цвет квадрата */
+        display: inline-block; /* Для расположения рядом с текстом */
+        margin-bottom: 10px; /* Отступ снизу */
+    }
+    
+    .uploadIcon {
+        width: 50px; /* Задайте нужный размер */
+        height: auto; /* Автоматическая высота */
+        margin-bottom: 10px; /* Отступ под иконкой */
+    }
+    
+    .buttonContainer {
+        display: flex;
+        justify-content: space-between; /* Размещаем кнопки по краям */
+        margin-top: 20px; /* Отступ сверху для кнопок */
+    }
+    
+    .addButton {
+        width: 134px;
+        height: 38px;
+        border: none;
+        border-radius: 50px;
+        background-color: #7E2DFC;
+        color: white;
+        font-size: 16px;
+        cursor: pointer; /* Указатель для кнопки */
+        margin-left: 149px;
+        font-weight: 700;
+    }
+    
+    .cancelButton {
+        width: 134px;
+        height: 38px;
+        border: none;
+        border-radius: 50px;
+        background-color: rgba(143, 146, 161, 0.1);
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        cursor: pointer; /* Указатель для кнопки */
+        margin-right: 149px;
+    }
+    
+    .addButton:hover {
+        background-color: #6524cf;
+    }
+    
+    .cancelButton:hover {
+        background-color: rgba(84, 86, 96, 0.1);
+    }
+    
+    .closeButton {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        margin-right: 24px;
+    }
+    
+    .closeButton:hover {
+        color: #6524cf;
+    }
+    
+    .searchInput {
+        font-size: 14px; /* Размер шрифта в поле ввода */
+        border: none; /* Убираем бордер у поля ввода */
+        border-radius: 25px; /* Закругляем углы поля ввода */
+        outline: none; /* Убираем обводку при фокусировке */
+        background-color: rgba(143, 146, 161, 0.05); /* Светлый серый фон для поля ввода */
+        width: 510px; /* Поле ввода занимает всё доступное пространство */
+        height: 46px; /* Высота поля ввода */
+        margin-left: 32px; /* Внутренние отступы слева и справа */
+        margin-top: 16px; /* Отступ сверху для поля ввода */
+        padding-left: 20px; /* Отступ слева для сдвига текста */
+    }

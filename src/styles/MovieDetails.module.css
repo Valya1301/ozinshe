@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.container1 {
+    background-color: rgba(143, 146, 161, 0.05);
+    border-radius: 20px 20px 0 0;
+    margin-top: 32px;
+    width: 872px;
+    height: 2864px;
+    box-sizing: border-box;
+}
+
+.container2 {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    width: 824px;
+    height: 1373px; /* Установим автоматическую высоту */
+    box-sizing: border-box;
+    margin-left: 24px;
+}
+
+.projectText {
+    color: rgba(143, 146, 161, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 39px;
+    margin-top: 5px;
+}
+
+.arrowIcon3 {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: space-between; /* Распределяем пространство между заголовком и кнопками */
+    margin-left: 32px; /* Отступ для контейнера заголовка */
+    margin-top: 32px; /* Отступ сверху для контейнера заголовка */
+}
+
+.title {
+    margin-left: 0; /* Убираем отступ слева, он теперь в контейнере */
+    margin-top: 32px;
+font-family: Roboto, sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: -0.4000000059604645px;
+text-align: left;
+
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    margin-right: 20px;
+}
+
+.editButton {
+    margin-right: 16px; /* Отступ справа от кнопки "Редактировать" */
+    padding: 8px 16px;
+    background-color: rgba(243, 246, 248, 1); /* Пример цвета кнопки */
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif; /* Добавим шрифт */
+    font-weight: 700; /* Толщина шрифта */
+    font-size: 16px;
+    width: 160px;
+    height: 36px;
+    box-sizing: border-box;
+}
+
+.deleteButton {
+    background-color: rgba(222, 53, 11, 1); /* Красный фон для кнопки "Удалить" */
+    border: none;
+    border-radius: 50%; /* Кнопка круглая */
+    width: 36px; /* Ширина кнопки */
+    height: 36px; /* Высота кнопки */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.deleteButton img {
+    width: 20px; /* Ширина иконки */
+    height: 20px; /* Высота иконки */
+}
+
+.statsContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 2px; /* Отступ сверху для контейнера статистики */
+    margin-left: 32px; /* Отступ слева для статистики */
+}
+
+.statItem {
+    display: flex;
+    align-items: center;
+    margin-right: 32px; /* Отступ между элементами статистики */
+}
+
+.statItem img {
+    width: 16px; /* Ширина иконки */
+    height: 16px; /* Высота иконки */
+    margin-right: 8px; /* Отступ между иконкой и числом */
+}
+
+.statNumber {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px; /* Размер шрифта для чисел */
+    color: rgba(143, 146, 161, 1);
+}
+
+.videoContainer {
+    position: relative; /* Для позиционирования круга */
+    margin-top: 23px; /* Отступ сверху для видео */
+    margin-left: 32px; /* Отступ слева для видео */
+    
+}
+.videoImage {
+    width: 760px; /* Ширина изображения */
+    height: 468px; /* Высота изображения */
+    border-radius: 16px; /* Скругленные углы */
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: rgba(126, 45, 252, 1); /* Цвет круга */
+    border-radius: 50%; /* Круглая форма */
+    opacity: 80%;
+}
+
+.seasonButtons {
+    display: flex;
+    justify-content: flex-start; /* Выравниваем кнопки по левому краю */
+    margin-left: 32px; /* Отступ слева для кнопок сезонов */
+}
+
+.seasonButton {
+    display: inline-flex; /* Используем flex для центрирования */
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+    width: 97px; /* Ширина кнопки */
+    height: 32px; /* Высота кнопки */
+    background-color: rgba(143, 146, 161, 0.1); /* Фон кнопки */
+    border: none; /* Граница кнопки */
+    border-radius: 4px; /* Скругленные углы */
+    margin: 0 8px 0 0;
+    cursor: pointer; /* Курсор при наведении */
+    transition: background-color 0.3s; /* Плавный переход фона */
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+
+}
+
+.seasonButton:hover {
+    background-color: #e0e0e0; /* Цвет фона при наведении */
+}
+
+.active {
+    background-color: rgba(0, 82, 204, 0.1); /* Цвет фона для активной кнопки */
+    color: rgba(0, 82, 204, 1); /* Цвет текста для активной кнопки */
+}
+
+.episodeList {
+    display: flex;
+    justify-content: flex-start; /* Распределяем элементы в ряд */
+    margin-top: 16px; /* Отступ сверху для списка серий */
+    margin-left: 32px; /* Отступ слева для списка серий */
+    flex-wrap: wrap; /* Оборачиваем элементы на следующую строку, если не помещаются */
+    
+
+}
+
+.episodeText {
+    margin-right: 24px; /* Отступ между элементами серий */
+    cursor: pointer; /* Указатель при наведении */
+    font-family: Roboto, sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: -0.20000000298023224px;
+text-align: left;
+color: rgba(143, 146, 161, 1);
+}
+
+.episodeText.active {
+    color: rgba(0, 82, 204, 1); /* Цвет активной серии */
+    font-weight: bold; /* Жирный шрифт для активной серии */
+    background-color: white;
+}
+
+.separator {
+    height: 1px; /* Высота линии */
+    border-top: 1px solid  rgba(143, 146, 161, 1); /* Цвет линии */
+    opacity: 10%;
+    margin-top: 13px;
+    width: 100%;
+}
+.descriptionTitle {
+    
+font-family: Roboto, sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: -0.4000000059604645px;
+text-align: left;
+    margin: 16px 32px; /* Отступы */
+}
+
+.descriptionText {
+    font-family: "Roboto", sans-serif;
+    
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.4000000059604645px;
+text-align: left;
+
+    margin: 0 32px 32px; /* Отступы */
+}
+.directorTitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px; /* Размер заголовка */
+    margin: 28px 32px; /* Отступы */
+}
+
+.directorText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px; /* Размер текста */
+    color: gray; /* Цвет текста */
+    margin: 0 32px 8px; /* Отступы */
+}
+
+.Name {
+    font-weight: 400; /* Обычный вес для имени композитора */
+    font-size: 16px;
+    margin-left: 38px;
+    color: black; /* Черный цвет для имени композитора */
+}
+.lineSeparator {
+    height: 1px; /* Высота линии */
+    margin: 34px  0 32px; /* Отступы сверху и снизу */
+    border-top: 1px solid  rgba(143, 146, 161, 1); /* Цвет линии */
+    opacity: 10%;
+
+
+}
+.screenshotsTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    margin: 32px 32px 30px; /* Отступы */
+    
+
+
+}
+.screenshotContainer {
+    display: flex;
+    flex-wrap: wrap; /* Обеспечивает перенос на следующий ряд */
+    gap: 16px; /* Отступы между прямоугольниками */
+    margin: 32px; /* Отступы вокруг контейнера */
+}
+
+.screenshot {
+    width: 178px; /* Ширина прямоугольника */
+    height: 108px; /* Высота прямоугольника */
+    background-color: #e0e0e0; /* Серый цвет */
+    border-radius: 8px; /* Скругленные углы */
+}
+.additionalInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 32px; /* Отступ между основным контейнером и дополнительной информацией */
+    width: 231px; /* Ширина дополнительного контейнера */
+    margin-top: 34px;
+}
+
+.icon {
+    width: 16px;  /* Ширина иконок */
+    height: 16px; /* Высота иконок */
+    margin-right: 8px; /* Отступ между иконкой и текстом */
+    margin-bottom: -3px;
+}
+
+.additionalText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.imageContainer {
+    margin-bottom: 16px; /* Отступ снизу для изображения */
+}
+
+.smallImage {
+    width: 150px; /* Ширина изображения */
+    height: 220px; /* Высота изображения */
+    border-radius: 8px; /* Скругленные углы */
+}
+.additionalInfo > div {
+    margin-bottom: 15px; /* Отступ между строками */
+    align-items: center; /* Центрируем по вертикали */
+}
+
+.icon {
+    margin-right: 8px; /* Отступ между иконкой и текстом */
+}
+
+.label {
+    color: rgba(156, 163, 175, 1); /* Цвет для первых слов */
+    font-weight: bold; /* Чтобы выделить их */
+}
+
+.value {
+    color: #000; /* Цвет для значений */
+}
+
+.adminInfo > span {
+    margin-bottom: 16px; /* Отступ между строками */
+}
+.adminInfo .label {
+    color: rgba(156, 163, 175, 1); /* Цвет для первых слов */
+    font-family: 'Roboto', sans-serif; /* Шрифт */
+    font-size: 14px; /* Размер шрифта */
+    font-weight: 400; /* Нормальная жирность */
+}
+
+.adminInfo .value {
+    font-family: 'Roboto', sans-serif; /* Шрифт */
+    font-size: 14px; /* Размер шрифта */
+    font-weight: 400; /* Нормальная жирность */
+    line-height: 20px; /* Высота строки */
+    letter-spacing: -0.4px; /* Интервал между буквами */
+}

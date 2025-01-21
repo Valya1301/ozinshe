@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px; /* Отступ от хедера */
+}
+
+.container1 {
+    background-color: rgba(143, 146, 161, 0.05); /* Фон */
+    border-radius: 20px 20px 0 0; /* Закругление верхних углов */
+    margin-top: 32px;
+    
+    width: 872px;
+    height: 2864px;
+    box-sizing: border-box;
+}
+.top {
+    display: flex;
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: flex-start; /* Выравниваем по левому краю */
+    margin-bottom: 40px;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+.projectContainer {
+    display: flex;
+    align-items: center; /* Центрируем текст и иконку по вертикали */
+    margin-right: 14px; /* Отступ между текстом и стрелкой */
+}
+.projectText {
+    color: rgba(143, 146, 161, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 24px; /* Увеличенный размер шрифта для заголовка */
+    margin-left: 14px; /* Отступ между проектом и заголовком */
+}
+
+
+.iconContainer {
+    position: relative; /* Позволяет позиционировать элементы внутри */
+}
+
+.square {
+    width: 30px; /* Ширина квадрата */
+    height: 30px; /* Высота квадрата */
+    background-color: rgba(143, 146, 161, 0.1); /* Цвет квадрата */
+    position: absolute; /* Позволяет наложить квадрат на изображение */
+    left: 0; /* Позиция по горизонтали */
+    top: 0; /* Позиция по вертикали */
+    border-radius: 5px; /* Закругленные углы (по желанию) */
+    z-index: 0; /* Положение под изображением */
+    margin-left: 32px;
+    margin-top: 3px;
+}
+
+.arrowIcon3 {
+    width: 16px; /* Ширина стрелочки */
+    height: 16px; /* Высота стрелочки */
+    position: relative; /* Позволяет установить порядок наложения */
+    z-index: 1; /* Положение над квадратом */
+    margin-left: 14px;
+   align-items: center;
+}
+
+.arrowIcon4 {
+    width: 20px; /* Ширина стрелочки */
+    height: 20px; /* Высота стрелочки */
+    position: relative; /* Позволяет установить порядок наложения */
+    z-index: 1; /* Положение над квадратом */
+    margin-top: 8px;
+    margin-left: 37px;
+}
+
+.addbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E2DFC;
+    border: none;
+    border-radius: 20px;
+    width: 140px; /* Увеличенная ширина кнопки */
+    height: 40px;
+    margin-left: auto; /* Авто отступ для выравнивания справа */
+    padding: 12px 8px;
+}
+
+.addtext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.addbutton:hover {
+    background-color: #6524cf;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Промежутки между элементами формы */
+}
+
+.input {
+    width: 760px;
+    height: 46px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(143, 146, 161, 1);
+    margin: 16px 0; /* Отступы сверху и снизу */
+    margin-left: 32px;
+    box-sizing: border-box;
+    background-color: rgba(143, 146, 161, 0.05);
+}
+.input1 {
+    width: 760px;
+    height: 46px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(143, 146, 161, 1);
+    
+    margin-left: 32px;
+    box-sizing: border-box;
+    background-color: rgba(143, 146, 161, 0.05);
+}
+.select {
+    width: 369px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    appearance: none; /* Убираем стандартный вид селекта */
+    background-image: url('../assets/Icon\ -\ R2.svg'); /* Путь к изображению стрелки */
+    background-size: 16px; /* Размер стрелки */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-position: right 10px center; /* Позиция стрелки */
+    margin: 16px 0; /* Отступы сверху и снизу */
+    margin-left: 32px;
+    background-color: rgba(143, 146, 161, 0.05);
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(143, 146, 161, 1);
+
+    
+}
+.select2 {
+    width: 369px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    appearance: none; /* Убираем стандартный вид селекта */
+    background-image: url('../assets/Icon\ -\ R2.svg'); /* Путь к изображению стрелки */
+    background-size: 16px; /* Размер стрелки */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-position: right 10px center; /* Позиция стрелки */
+    margin: 16px 0 16px 7px; /* Отступы сверху и снизу */
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(143, 146, 161, 1);
+
+    background-color: rgba(143, 146, 161, 0.05);
+    box-sizing: border-box;
+    
+}
+
+.select1 {
+    width: 760px;
+    height: 46px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    appearance: none; /* Убираем стандартный вид селекта */
+    background-image: url('../assets/Icon\ -\ R2.svg'); /* Путь к изображению стрелки */
+    background-size: 16px; /* Размер стрелки */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-position: right 10px center; /* Позиция стрелки */
+    margin-left: 32px;
+    background-color: rgba(143, 146, 161, 0.05);
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(143, 146, 161, 1);
+}
+.arrowContainer1 {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 846px;
+    margin-top: 173px;
+}
+.arrowContainer2 {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 454px;
+    margin-top: 173px;
+}
+.arrowIcon1 {
+    width: 16px; /* Размер стрелки */
+    height: 16px; /* Размер стрелки */
+    cursor: pointer; /* Указатель для кнопок */
+    margin: 0; /* Убираем отступы между стрелками */
+    margin-bottom: -6px;
+}
+.arrowIcon2 {
+    width: 16px; /* Размер стрелки */
+    height: 16px; /* Размер стрелки */
+    cursor: pointer; /* Указатель для кнопок */
+    margin: 0; /* Убираем отступы между стрелками */
+}
+
+.arrowUp { 
+    transform: rotate(180deg);
+    margin-bottom: -10px;
+}
+.arrowDown {
+    transform: rotate(0deg);
+    margin-bottom: -3px; /* Поворот стрелки вниз */
+}
+.arrowUp1 { 
+    transform: rotate(180deg);
+    margin-bottom: -10px;
+}
+.arrowDown1 {
+    transform: rotate(0deg);
+    margin-bottom: -3px; /* Поворот стрелки вниз */
+}
+/* Опционально: если нужно задать очень маленькое расстояние */
+.arrowContainer button {
+    margin: -2px 0; /* Позиционирование кнопок для минимального расстояния */
+}
+
+
+
+.selectContainer {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0; /* Убираем отступы */
+    
+}
+
+
+
+.select3 {
+    width: 369px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    appearance: none; /* Убираем стандартный вид селекта */
+    background-color: rgba(143, 146, 161, 0.05);
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(143, 146, 161, 1);
+
+    margin-left: 8px;
+}
+
+.select4 {
+    width: 369px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    appearance: none; /* Убираем стандартный вид селекта */
+    background-color: rgba(143, 146, 161, 0.05);
+    box-sizing: border-box;
+    margin-left: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(143, 146, 161, 1);
+
+}
+
+
+.row {
+    display: flex;
+    gap: 16px; /* Отступ между селектами */
+    margin: 0;
+
+}
+.submitButton {
+    background-color: #7E2DFC;
+    border: none;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background-color: #6524cf;
+}
+
+.infoContainer {
+    background-color: #fff; /* Белый фон контейнера */
+    border-radius: 15px; /* Закругление углов */
+    
+    margin-top: 24px; /* Отступ сверху */
+    width: 824px;
+    height: 808px;
+    margin-left: 24px;
+    box-sizing: border-box;
+}
+
+.infoBox {
+    display: flex;
+    align-items: center; /* Центрируем содержимое по вертикали */
+    
+}
+
+.infoText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700; /* Средний шрифт */
+    font-size: 22px; /* Размер текста */
+    color: #171717; /* Цвет текста */
+    margin-left: 16px; /* Отступ слева от стрелочки */
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.arrowIcon {
+    width: 20px; /* Ширина стрелочки */
+    height: 20px; /* Высота стрелочки */
+    margin-left: 37px;
+    margin-top: 37px;
+}
+
+.keywords {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400; /* Легкий шрифт */
+    font-size: 12px; /* Размер шрифта */
+    color: rgba(143, 146, 161, 1); /* Серый цвет */
+    margin-top: -11px; /* Отступ сверху */
+    margin-left: 56px;
+
+}
+
+.textarea {
+    height: 150px;
+    width: 760px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(143, 146, 161, 1);
+    resize: none !important; /* Убираем возможность изменения размера с приоритетом */
+    margin-left: 32px;
+    box-sizing: border-box;
+    background-color: rgba(143, 146, 161, 0.05);
+    margin-top: 20px;
+    
+}
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end; /* Выравнивание кнопок по правому краю */
+    margin-top: 32px; /* Отступ сверху для кноп*/
+    margin-right: 32px;
+    gap: 8px;
+}
+
+.addButton{
+    background-color: rgba(126, 45, 252, 1); /* Цвет кнопки "Добавить" */
+    color: white; /* Цвет текста кнопки "Добавить" */
+    width: 134px;
+    height: 38px;
+    gap: 8px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    
+    
+}
+.cancelButton {
+    width: 134px;
+    height: 38px;
+    
+   border: none;
+   border-radius: 16px;
+   font-size: 16px;
+   background-color: rgba(143, 146, 161, 0.1); /* Цвет кнопки "Отмена" */
+    color: rgb(0, 0, 0); /* Цвет текста кнопки "Отмена" */
+    
+    
+}
+
+
+
+
+.addButton:hover {
+    background-color: #6524cf; /* Темный цвет для эффекта при наведении на кнопку "Добавить" */
+}
+.cancelButton:hover {
+    background-color: rgba(84, 86, 96, 0.1);
+}
+
+
+.closeButton {
+    background: none; /* Убираем фон кнопки закрытия */
+    border: none; /* Убираем бордер у кнопки закрытия */
+    cursor: pointer; /* Курсор меняется на указатель при наведении */
+    font-size: 18px; /* Размер крестика */
+    margin-right: 24px;
+    
+}
+

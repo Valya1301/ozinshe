@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px;
+}
+
+.container1 {
+    background-color: rgba(143, 146, 161, 0.05);
+    border-radius: 20px 20px 0 0;
+    margin-top: 32px;
+    width: 872px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.container2 {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    width: 824px;
+    height: 1059px;
+    box-sizing: border-box;
+    margin-left: 24px;
+}
+
+.projectText {
+    color: rgba(143, 146, 161, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 39px;
+    margin-top: 5px;
+}
+
+.arrowIcon3 {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-left: 32px;
+    box-sizing: border-box;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8F92A11A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.backicon {
+    width: 16px;
+    height: 20px;
+    background-color: #8f92a100;
+}
+
+.text2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px; 
+    background-color: #fff;
+    margin-top: 32px;
+    margin-left: 78px;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    gap: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(213, 211, 211);
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.item {
+    color: rgba(143, 146, 161, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px; 
+    background-color: #fff;
+    margin-left: 32px;
+    margin-right: -30px;
+   
+}
+
+.item:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.item1 {
+    color: rgba(0, 82, 204, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px; 
+    background-color: #fff;
+    margin-left: 40px;
+    
+}
+
+.item1:hover {
+    cursor: pointer;
+}
+
+.imageDropZone {
+    border: 2px dashed #ccc;
+    border-radius: 10px; 
+    background-color: rgba(143, 146, 161, 0.05);
+    width: 760px; 
+    height: 168px; 
+    position: relative; 
+    text-align: center; 
+    cursor: pointer; 
+    margin: 16px 32px 0;
+}
+
+.innerSquare {
+    background-color: rgba(143, 146, 161, 0.05);
+    width: 48px; 
+    height: 48px; 
+    border-radius: 10px; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.iconContainer {
+    position: relative; 
+    margin-right: 10px; 
+}
+
+.infoContainer {
+    background-color: #fff;
+    border-radius: 15px;
+    
+    width: 824px;
+}
+
+.infoText1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #171717;
+    margin: 32px; 
+}
+
+.infoText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #171717;
+    margin: 16px 32px;
+}
+
+h3 {
+    margin: 32px 0 16px 333px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end; 
+    margin: 32px 32px 0; 
+    gap: 8px;
+}
+
+.addButton,  .backButton {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.addButton {
+    background-color: #7E2DFC;
+    color: white;
+}
+
+.addButton:hover {
+    background-color: #6524cf;
+}
+
+
+
+.backButton {
+    margin-left: 32px;
+}
+
+.backButton:hover {
+    background-color: rgba(84, 86, 96, 0.1);
+}
+
+.screenshotGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 столбцов */
+    gap: 8px; /* Отступы между изображениями */
+    margin-top: 10px;
+}
+
+.screenshotItem {
+    position: relative;
+    overflow: hidden; /* Скрывает излишки изображения */
+    width: 140px;
+}
+
+.screenshotImage {
+    width: 140px; /* Установите ширину */
+    height: 79px; /* Установите высоту */
+    object-fit: cover; /* Обеспечивает корректное отображение */
+    border-radius: 4px; /* Скругление углов */
+}
+
+.iconContainer1 {
+    position: absolute;
+    top: 5px; /* Устанавливаем фиксированное расстояние от верхней грани */
+    right: 5px; /* Устанавливаем фиксированное расстояние от правой грани */
+}
+
+.square1 {
+    background: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон для лучшей видимости */
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрируем иконку */
+    margin-top: -1px;
+}
+
+.deleteIcon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.coverImageContainer {
+    position: relative;
+    margin-left: 337px; /* Можешь настроить отступ по необходимости */
+}
+
+.deleteIconBackground {
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 50%; 
+    width: 36px; 
+    height: 36px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: absolute; 
+    top: 4px; /* Позиционируем в верхнем углу */
+    right: 341px; /* Позиционируем в правом углу */
+    cursor: pointer; 
+}
+
+.coverImage {
+    width: 150px; 
+    height: 220px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    
+}
+
+.coverImageContainer {
+    position: relative;
+    margin-left: 337px;
+}
+
+.deleteIconCover {
+    width: 20px; 
+    height: 20px; 
+    position: absolute; 
+    top: 8px; 
+    right:8px; 
+    cursor: pointer; 
+    opacity: 0.7; 
+    color: rgba(23, 23, 23, 0.8);
+}
+
+.deleteIconCover:hover {
+    opacity: 1; 
+}
+
+
+
+.addButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E2DFC;
+    border: none;
+    border-radius: 16px;
+    width: 134px;
+    height: 38px;
+    margin-left: auto;
+    padding: 12px 8px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.addButton:hover {
+    background-color: #6524cf;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end; /* Выравнивание кнопок по правому краю */
+    margin-top: 32px; /* Отступ сверху для кнопок */
+    margin-right: 32px;
+    gap: 8px;
+    border-radius: 16px;
+}
+
+.cancelButton {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    background-color: rgba(143, 146, 161, 0.1);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.box5 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #fff;
+    justify-content: right;
+    margin-top: 32px; /* Сдвигает кнопки в низ */
+    margin-bottom: 32px;
+}
+
+.nextbtn {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    background-color: #7E2DFC;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+.infoText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #171717;
+    margin: 32px 0 32px 16px;
+}
+.cancelbtn {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    background-color: #8F92A11A;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 32px;
+}
+
+.nextbtn:hover {
+    background-color: #6524cf;
+}
+

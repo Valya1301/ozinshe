@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px; /* Отступ от хедера */
+}
+
+.container1 {
+    background-color: rgba(143, 146, 161, 0.05); /* Фон */
+    border-radius: 20px 20px 0 0; /* Закругление верхних углов */
+    margin-top: 32px;
+    width: 872px;
+    height: 2864px; /* Авто высота для адаптивности */
+    box-sizing: border-box;
+}
+.container2 {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    width: 824px;
+    height: 1026px;
+    box-sizing: border-box;
+    margin-left: 24px;
+}
+
+.projectText {
+    color: rgba(143, 146, 161, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px; /* Увеличенный размер шрифта для заголовка */
+    margin-left: 39px; /* Отступ между проектом и заголовком */
+    margin-top: 5px;
+
+}
+.arrowIcon3 {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+.arrowIcon4 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 36px;
+}
+.text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.top {
+    display: flex;
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: flex-start; /* Выравниваем по левому краю */
+    margin-bottom: 40px;
+    margin-left: 48px;
+    margin-top: 40px;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-left: 32px;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8F92A11A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.backicon {
+    width: 16px;
+    height: 20px;
+    background-color: #8f92a100;
+}
+
+.text2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px; 
+    background-color: #fff;
+    margin-top: 32px;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    gap: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(213, 211, 211);
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.item {
+    color: rgba(143, 146, 161, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px; 
+    background-color: #fff;
+    
+}
+
+.item:hover{
+    color: black;
+    cursor: pointer;
+}
+.item1 {
+    color: rgba(0, 82, 204, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px; 
+    background-color: #fff;
+    margin-left: 32px;
+}
+
+.item1:hover{
+    cursor: pointer;
+}
+.input {
+    width: 760px;
+    height: 46px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    padding: 8px 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin: 16px 0; /* Отступы сверху и снизу */
+    margin-left: 32px;
+    box-sizing: border-box;
+}
+.input1 {
+    width: 760px;
+    height: 46px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    padding: 8px 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(23, 23, 23, 1);
+    margin-left: 32px;
+    box-sizing: border-box;
+}
+.select {
+    width: 369px;
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    appearance: none; /* Убираем стандартный вид селекта */
+    background-image: url('../assets/Icon\ -\ R2.svg'); /* Путь к изображению стрелки */
+    background-size: 16px; /* Размер стрелки */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-position: right 10px center; /* Позиция стрелки */
+    margin: 16px 0; /* Отступы сверху и снизу */
+    margin-left: 32px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(23, 23, 23, 1);
+
+    
+}
+.select2 {
+    width: 369px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    appearance: none; /* Убираем стандартный вид селекта */
+    background-image: url('../assets/Icon\ -\ R2.svg'); /* Путь к изображению стрелки */
+    background-size: 16px; /* Размер стрелки */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-position: right 10px center; /* Позиция стрелки */
+    margin: 16px 0 16px 7px; /* Отступы сверху и снизу */
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(23, 23, 23, 1);
+    box-sizing: border-box;
+    
+}
+
+.select1 {
+    width: 760px;
+    height: 46px;
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    appearance: none; /* Убираем стандартный вид селекта */
+    background-image: url('../assets/Icon\ -\ R2.svg'); /* Путь к изображению стрелки */
+    background-size: 16px; /* Размер стрелки */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    background-position: right 10px center; /* Позиция стрелки */
+    margin-left: 32px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(23, 23, 23, 1);
+}
+.arrowContainer1 {
+    position: absolute;
+    top: 61%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 846px;
+    margin-top: 170px;
+}
+.arrowContainer2 {
+    position: absolute;
+    top: 61%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 454px;
+    margin-top: 170px;
+}
+.arrowIcon1 {
+    width: 16px; /* Размер стрелки */
+    height: 16px; /* Размер стрелки */
+    cursor: pointer; /* Указатель для кнопок */
+    margin: 0; /* Убираем отступы между стрелками */
+    margin-bottom: -6px;
+}
+.arrowIcon2 {
+    width: 16px; /* Размер стрелки */
+    height: 16px; /* Размер стрелки */
+    cursor: pointer; /* Указатель для кнопок */
+    margin: 0; /* Убираем отступы между стрелками */
+}
+
+.arrowUp { 
+    transform: rotate(180deg);
+    margin-bottom: -10px;
+}
+.arrowDown {
+    transform: rotate(0deg);
+    margin-bottom: -3px; /* Поворот стрелки вниз */
+}
+.arrowUp1 { 
+    transform: rotate(180deg);
+    margin-bottom: -10px;
+}
+.arrowDown1 {
+    transform: rotate(0deg);
+    margin-bottom: -3px; /* Поворот стрелки вниз */
+}
+/* Опционально: если нужно задать очень маленькое расстояние */
+.arrowContainer button {
+    margin: -2px 0; /* Позиционирование кнопок для минимального расстояния */
+}
+
+
+
+.selectContainer {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0; /* Убираем отступы */
+    
+}
+
+
+
+.select3 {
+    width: 369px;
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    appearance: none; /* Убираем стандартный вид селекта */
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(23, 23, 23, 1);
+    margin-left: 8px;
+}
+
+.select4 {
+    width: 369px;
+    padding: 10px 24px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    appearance: none; /* Убираем стандартный вид селекта */
+    box-sizing: border-box;
+    margin-left: 32px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(23, 23, 23, 1);
+    
+
+}
+
+
+.row {
+    display: flex;
+    gap: 16px; /* Отступ между селектами */
+    margin: 0;
+
+}
+
+  .infoContainer {
+      background-color: #fff;
+      border-radius: 15px;
+      margin-top: 24px;
+      width: 824px;
+      height: 528px;
+      margin-left: 24px;
+      box-sizing: border-box;
+  }
+  
+  .infoText {
+      font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      color: #171717;
+      margin: 32px 0 32px 16px;
+  }
+  
+  .buttonContainer {
+      display: flex;
+      justify-content: flex-end; /* Выравнивание кнопок по правому краю */
+      margin-top: 152px; /* Отступ сверху для кнопок */
+      margin-right: 32px;
+      gap: 8px;
+      border-radius: 16px;
+  }
+  
+  .cancelButton {
+      width: 134px;
+      height: 38px;
+      border: none;
+      border-radius: 16px;
+      font-size: 16px;
+      background-color: rgba(143, 146, 161, 0.1);
+      color: rgb(0, 0, 0);
+      font-weight: 700;
+  }
+  
+  .cancelButton:hover {
+      background-color: rgba(84, 86, 96, 0.1);
+  }
+  
+  .infoBox {
+      display: flex; /* Добавляем flexbox */
+      align-items: center; /* Центрируем содержимое по вертикали */
+      margin-bottom: 20px; /* Добавьте отступ, если нужно */
+      box-sizing: border-box;
+  }
+  
+
+  
+  .textarea {
+    height: 150px;
+    width: 760px;
+    border-radius: 16px ;
+    border: 1px solid #ccc;
+    padding: 8px 24px;
+    font-size: 14px ;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    resize: none !important; /* Убираем возможность изменения размера с приоритетом */
+    margin-left: 32px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    
+}
+
+
+  
+  
+  .selectContainer {
+      display: flex;
+      flex-direction: column; /* Элементы расположены вертикально */
+      margin-bottom: 16px; /* Отступ снизу */
+  }
+  
+
+  
+  .backButton {
+      width: 134px;
+      height: 38px;
+      border: none;
+      border-radius: 16px;
+      font-size: 16px;
+      background-color: rgba(143, 146, 161, 0.1);
+      color: rgb(0, 0, 0);
+      margin-right: auto; /* Это позволит кнопке "Назад" быть слева */
+      margin-left: 32px;
+      font-weight: 700;
+  }
+  
+  .backButton:hover {
+      background-color: rgba(84, 86, 96, 0.1);
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end; /* Выравнивание кнопок по правому краю */
+    margin-top: 32px; /* Отступ сверху для кноп*/
+    margin-right: 32px;
+    gap: 8px;
+}
+
+.addButton{
+    background-color: rgba(126, 45, 252, 1); /* Цвет кнопки "Добавить" */
+    color: white; /* Цвет текста кнопки "Добавить" */
+    width: 134px;
+    height: 38px;
+    gap: 8px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    
+    
+}
+.cancelButton {
+    width: 134px;
+    height: 38px;
+    
+   border: none;
+   border-radius: 16px;
+   font-size: 16px;
+   background-color: rgba(143, 146, 161, 0.1); /* Цвет кнопки "Отмена" */
+    color: rgb(0, 0, 0); /* Цвет текста кнопки "Отмена" */
+    
+    
+}
+
+
+
+
+.addButton:hover {
+    background-color: #6524cf; /* Темный цвет для эффекта при наведении на кнопку "Добавить" */
+}
+.cancelButton:hover {
+    background-color: rgba(84, 86, 96, 0.1);
+}
+
+
+.closeButton {
+    background: none; /* Убираем фон кнопки закрытия */
+    border: none; /* Убираем бордер у кнопки закрытия */
+    cursor: pointer; /* Курсор меняется на указатель при наведении */
+    font-size: 18px; /* Размер крестика */
+    margin-right: 24px;
+    
+}
+
+.label1 {
+    margin-top: 11px;
+    position: absolute;
+    margin-left: 62px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+background-color: white;
+color:  rgba(143, 146, 161, 1);
+
+
+}
+.label2 {
+    margin-top: -5px;
+    position: absolute;
+    margin-left: 62px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+display: flex;
+background-color: white;
+color:  rgba(143, 146, 161, 1);
+}
+
+.label3{
+    margin-top: 11px;
+    position: absolute;
+    margin-left: 62px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+display: flex;
+background-color: white;
+color:  rgba(143, 146, 161, 1);
+}
+
+.label4 {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 62px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+background-color: white;
+color:  rgba(143, 146, 161, 1);
+
+}
+.label5 {
+    margin-top: 11px;
+    position: absolute;
+    margin-left: 62px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+display: flex;
+background-color: white;
+color:  rgba(143, 146, 161, 1);
+}
+
+.label6 {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 62px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+display: flex;
+background-color: white;
+color:  rgba(143, 146, 161, 1);
+}
+
+.label7 {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 62px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+display: flex;
+background-color: white;
+color:  rgba(143, 146, 161, 1);
+}
+
+.label8 {
+    margin-top: 13px;
+    position: absolute;
+    margin-left: 62px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+display: flex;
+background-color: white;
+color:  rgba(143, 146, 161, 1);
+}
+.label9 {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 62px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+display: flex;
+background-color: white;
+color:  rgba(143, 146, 161, 1);
+}
+.label10 {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 62px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+display: flex;
+background-color: white;
+color:  rgba(143, 146, 161, 1);
+;
+}

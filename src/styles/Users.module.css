@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px; /* Отступ от хедера */
+}
+
+.container1 {
+     /* Занимает оставшееся пространство */
+    background-color: rgba(143, 146, 161, 0.05); /* Фон */
+    border-radius: 20px 20px 0 0; /* Закругление верхних углов */
+    margin-top: 32px;
+    width: 1190px;
+    height: 2864px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    
+    margin-top: 40px;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    padding: 6px 8px 6px 0px;
+    margin-left: 48px;
+    white-space: nowrap;
+}
+
+.text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 6px;
+    color: #171717CC;
+    line-height: 24px;
+    margin-left: 8px;
+    padding: 10px 0px 10px 0px;;
+}
+
+.title {
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Уменьшить пространство между текстом и селектом */
+    background-color: rgba(143, 146, 161, 0.05);
+    border-radius: 16px;
+    font-size: 14px;
+    width: 293px; /* Ширина контейнера */
+    height: 40px; /* Высота контейнера */
+    margin-left: 48px; /* Можно настроить, как нужно */
+    line-height: 24px;
+}
+
+.text2 {
+    color: #8F92A1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 12px; /* Уменьшить отступ справа */
+    line-height: 24px;
+}
+.select {
+    width: 100%; /* Занимает всю ширину контейнера */
+    height: 40px;
+    padding: 8px 0px 12px 8px; /* Отступ для текста и места для стрелки */
+    border-radius: 25px;
+    background-color: rgba(143, 146, 161, -1.95);
+    font-size: 14px;
+    appearance: none; /* Убираем стандартный вид селекта */
+    border: none;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+outline: none; /* Убираем обводку при фокусе */
+margin-left: 8px;
+
+
+
+}
+
+.customArrow {
+    position: absolute;
+    right: 0px; /* Положение стрелки относительно правого края */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px; /* Размер стрелки */
+    height: 24px;
+    background-image: url('../assets/Icon - R (1).svg'); /* Путь к изображению стрелки */
+    background-size: cover;
+    pointer-events: none; /* Игнорировать события мыши */
+    margin-right:384px;
+    margin-top: -56px;
+}
+
+
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 18px; /* Добавлен общий отступ между блоками */
+    margin-left: 48px;
+    display: flex;
+}
+
+.block {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 228px;
+    height: 110px;
+    display: flex;
+    flex-direction: column; /* Убедитесь, что содержимое вертикально */
+}
+
+.categoryTitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    /* Отступ снизу */
+    margin-top: 18px;
+    
+}
+.gmail {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9CA3AF;
+     
+    margin-top: 8px; 
+           /* Убираем лишние отступы */
+}
+
+.categoryLetter {
+     /* Высота квадрата */
+    background-color: rgba(0, 82, 204, 1); /* Цвет фона */
+    display: flex; /* Центрируем букву */
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */ /* Закругление углов */
+    font-size: 14px; /* Размер шрифта */
+    font-weight: 700; /* Жирный текст */
+    color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    padding: 2px 2px 2px 2px;
+    
+    
+
+}

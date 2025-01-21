@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px; /* Отступ от хедера */
+}
+
+.container1 {
+    flex-grow: 1; /* Занимает оставшееся пространство */
+    background-color: rgba(143, 146, 161, 0.05); /* Фон */
+    border-radius: 20px 20px 0 0; /* Закругление верхних углов */
+    margin-top: 32px;
+    width: 1190px;
+    height: 2864px;
+    box-sizing: border-box;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 48px;
+    margin-right: 48px;
+    gap: 18px; /* Отступ между блоками */
+    width: 1094px;
+    height: 460px;
+}
+
+
+.top {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 6px 8px 6px 0px;
+    margin-left: 48px;
+}
+
+.text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #171717CC;
+    margin-top: 3px;
+    padding: 10px 0px 10px 0px;
+}
+
+.addbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E2DFC;
+    border: none;
+    border-radius: 16px;
+    width: 120px;
+    height: 40px;
+    margin-left: auto;
+    padding: 12px 8px;
+    margin-right: 48px;
+}
+
+.addicon {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    padding: 8px 0px 8px 12px;
+}
+
+.addtext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent;
+    padding: 4px 12px;
+    width: 64px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.addbutton:hover {
+    background-color: #6524cf;
+}
+
+.title {
+    display: flex;
+    margin-top: 40px;
+}
+
+.text2 {
+    color: #8F92A1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 12px; /* Уменьшить отступ справа */
+    line-height: 24px;
+}
+
+.selectContainer {
+    position: relative; /* Для позиционирования стрелки */
+    flex: 1; /* Занимает равное пространство */ /* Отступ между селектами */
+   
+}
+
+.select {
+    width: 100%; /* Занимает всю ширину контейнера */
+    height: 40px;
+    padding: 8px 0px 12px 4px; /* Отступ для текста и места для стрелки */
+    border-radius: 25px;
+    background-color: rgba(143, 146, 161, -1.95);
+    font-size: 14px;
+    appearance: none; /* Убираем стандартный вид селекта */
+    border: none;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+outline: none; /* Убираем обводку при фокусе */
+
+
+
+}
+
+.customArrow {
+    position: absolute;
+    right: -6px; /* Положение стрелки относительно правого края */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px; /* Размер стрелки */
+    height: 24px;
+    background-image: url('../assets/Icon - R (1).svg'); /* Путь к изображению стрелки */
+    background-size: cover;
+    pointer-events: none; /* Игнорировать события мыши */
+}
+
+/* Удалите любые старые стили, относящиеся к старой стрелке */
+
+
+
+.box4 {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Уменьшить пространство между текстом и селектом */
+    background-color: rgba(143, 146, 161, 0.05); /* Фон */
+    border-radius: 16px; /* Закругление углов */
+    font-size: 14px;
+    height: 40px; /* Высота контейнера */
+    line-height: 24px;
+    padding: 0 12px; /* Отступы: 0 сверху и снизу, 12px справа и слева */
+    border: none;
+    width: 154px; /* Фиксированная ширина */
+    box-sizing: border-box; /* Учитываем паддинги в ширину */
+    margin-left: 16px;
+}
+
+
+.select1 {
+    flex: 1; /* Занимает оставшуюся ширину */
+    background-color: transparent;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+}
+.box5 {
+    display: flex;
+    align-items: center;
+    background-color: rgba(143, 146, 161, 0.05);
+    border-radius: 16px;
+    padding: 8px 12px;
+    height: 40px;
+    position: relative;
+    width: 146px;
+    box-sizing: border-box;
+    margin-left: 294px;
+}
+
+.icon {
+     width: 24px; /* Размер иконки */
+    height: 24px;
+    background-image: url(../assets/💚\ Icon\ \(7\).svg ); /* Укажите путь к вашей иконке */
+    background-position: center;
+    margin-right: 8px; /* Отступ между иконкой и текстом */
+}
+.box3 {
+     
+        display: flex;
+        align-items: center;
+        gap: 4px; /* Уменьшить пространство между текстом и селектом */
+        background-color: rgba(143, 146, 161, 0.05); /* Фон */
+        border-radius: 16px; /* Закругление углов */
+        font-size: 14px;
+        height: 40px; /* Высота контейнера */
+        line-height: 24px;
+        padding: 0 12px; /* Отступы: 0 сверху и снизу, 12px справа и слева */
+        border: none;
+        width: 230px; /* Фиксированная ширина */
+        box-sizing: border-box; /* Учитываем паддинги в ширину */
+        margin-left: 16px;
+    
+}
+
+
+.box2 {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Уменьшить пространство между текстом и селектом */
+    background-color: rgba(143, 146, 161, 0.05); /* Фон */
+    border-radius: 16px; /* Закругление углов */
+    font-size: 14px;
+    height: 40px; /* Высота контейнера */
+    margin-left: 48px; /* Отступ слева для контейнера */
+    line-height: 24px;
+    padding: 8px 12px; /* Отступы: 8px сверху и снизу, 12px справа и слева */
+    width: 238px; /* Фиксированная ширина */
+    box-sizing: border-box; /* Учитываем паддинги в ширину */
+}
+
+
+
+.text3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+.boxx {
+    display: flex;
+    align-items: center;
+    background-color: rgba(143, 146, 161, 0.05);
+    border-radius: 20px;
+    justify-content: center;
+    margin-right: 48px;
+    margin-left: auto;
+    width: 146px;
+    height: 24px;
+    padding: 8px 0px;
+}
+
+.timeicon {
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.block {
+    width: 260px;
+    height: 460px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px; /* Отступ снизу между карточками */
+}
+
+.images {
+    width: 228px;
+    height: 334px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.movietitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #fff;
+    margin-left: 16px;
+}
+
+.movietitle:hover {
+    color: #6524cf;
+    cursor: pointer;
+}
+
+.undertitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9CA3AF;
+    background-color: #fff;
+    margin-top: 8px;
+    margin-left: 16px;
+    text-align: left;
+}
+
+.box1 {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+}
+
+.viewicon {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.views {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9CA3AF;
+    background-color: #fff;
+    margin-left: 4px;
+    margin-top: 16px;
+}
+
+.blockicone {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    margin-left: 123px;
+    margin-top: 16px;
+}
+
+.blockicone1 {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.calendarIcon {
+    width: 24px;
+    height: 24px;
+    color: rgba(23, 23, 23, 1);
+}
+
+.seasonBlock {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6); /* Черный фон с прозрачностью */
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  z-index: 10; /* Это гарантирует, что блок будет поверх изображения */
+}
+
+.seasonBlock p {
+  margin: 0; /* Убираем отступы вокруг текста */
+}

@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px; /* Отступ от хедера */
+}
+
+.container1 {
+    background-color: rgba(143, 146, 161, 0.05); /* Фон */
+    border-radius: 20px 20px 0 0; /* Закругление верхних углов */
+    margin-top: 32px;
+    width: 872px;
+    height: 2864px; /* Динамическая высота */
+    box-sizing: border-box;
+}
+.inputContainer {
+    width: 510px; /* Устанавливаем ширину 100% */
+     /* Максимальная ширина, чтобы контролировать размер */
+    height: 46px;
+    padding: 0 12px;
+    border:none;
+    background-color: rgba(143, 146, 161, 0.05);
+    border-radius: 16px;
+    outline: none;
+    margin: 16px auto; /* Центрирование по горизонтали */
+    box-sizing: border-box; /* Учитываем отступы в общей ширине */
+    margin-left: 32px;
+    font-weight: 500;
+}
+
+.input {
+    width: 100%; /* Устанавливаем ширину 100% */
+    max-width: 484px; /* Максимальная ширина, чтобы контролировать размер */
+    height: 46px;
+    padding: 0 12px;
+    border: 1px solid rgba(23, 23, 23, 0.6);
+    border-radius: 16px;
+    outline: none;
+    margin: 0; /* Центрирование по горизонтали */
+    box-sizing: border-box; /* Учитываем отступы в общей ширине */
+    font-weight: 500;
+}
+
+.imageDropZone {
+    border: 2px dashed #ccc; /* Граница для зоны загрузки */
+    border-radius: 10px; /* Закругление углов */
+    background-color: rgba(143, 146, 161, 0.05); /* Фоновый цвет */
+    width: 760px; /* Ширина зоны */
+    height: 168px; /* Высота зоны */
+    position: relative; /* Позиционирование внутренних элементов */
+    text-align: center; /* Центрирование текста */
+    cursor: pointer; /* Указатель для курсора */
+    margin-left: 32px;
+    margin-bottom: 16px;
+    
+}
+
+.innerSquare {
+    background-color: rgba(143, 146, 161, 0.05); /* Фон маленького квадрата */
+    width: 48px; /* Ширина */
+    height: 48px; /* Высота */
+    border-radius: 10px; /* Закругление углов */
+    position: absolute; /* Позиционирование */
+    top: 40%; /* Вертикальная позиция */
+    left: 50%; /* Центрирование по горизонтали */
+    transform: translate(-50%, -50%); /* Центрируем квадрат */
+    display: flex; /* Центрирование иконки */
+    justify-content: center;
+    align-items: center;
+}
+.top {
+    display: flex;
+    align-items: center; /* Центрируем по вертикали */
+    margin: 40px 0 40px 48px; /* Отступы сверху, снизу и слева */
+}
+
+.projectContainer {
+    display: flex;
+    align-items: center;
+}
+
+.projectText {
+    color: rgba(143, 146, 161, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px; /* Размер шрифта заголовка */
+    margin-left: 39px; /* Отступ между проектом и заголовком */
+}
+
+.iconContainer {
+    position: relative; /* Позволяет позиционировать элементы внутри */
+    margin-right: 10px; /* Отступ для расстояния между квадратом и текстом */
+}
+.iconContainer {
+    position: relative; /* Позволяет позиционировать элементы внутри */
+    margin-right: 10px; /* Отступ для расстояния между квадратом и текстом */
+}
+.square {
+    width: 30px; /* Ширина квадрата */
+    height: 30px; /* Высота квадрата */
+    background-color: rgba(143, 146, 161, 0.1); /* Цвет квадрата */
+    border-radius: 5px; /* Закругленные углы */
+    position: absolute; /* Позволяет наложить квадрат на изображение */
+    margin-left: 32px;
+    margin-top: 32px;
+    z-index: 2; /* Положение под изображением */
+    pointer-events: none;
+}
+.square1 {
+    width: 36px; /* Ширина квадрата */
+    height: 36px; /* Высота квадрата */
+    background-color: rgba(255, 255, 255, 0.4); /* Цвет квадрата */
+    border-radius: 16px; /* Закругленные углы */
+    position: absolute; /* Позволяет наложить квадрат на изображение */
+    margin-left: 414px;
+    margin-top: -219px;
+    z-index: 0; /* Положение под изображением */
+}
+.arrowIcon {
+    width: 20px; /* Ширина стрелочки */
+    height: 20px; /* Высота стрелочки */
+    position: absolute; /* Позиционирование внутри квадрата */
+    left: 5px; /* Отступ от левого края квадрата */
+    top: 5px; /* Отступ от верхнего края квадрата */
+    z-index: 1; /* Над квадратом */
+}
+.deleteIcon {
+    width: 20px;
+    height: 20px;
+    margin-left: 9px;
+    margin-top: 8px ;
+    z-index: 2;
+}
+.infoContainer {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 24px 24px 0; /* Отступы сверху и слева */
+    width: 824px;
+    height: 972px; /* Динамическая высота */
+    
+}
+
+.infoText1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #171717;
+    margin-top: 32px;
+    margin-left: 32px;
+    line-height: 30px;
+    
+}
+.infoText2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #171717;
+    margin-left: 158px;
+    line-height: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: block;
+
+    
+}
+.infoText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #171717;
+    margin-left: 32px;
+    line-height: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+h3 {
+    margin-left: 333px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.arrowIcon3 {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 56px;
+}
+
+.arrowIcon4 {
+    width: 20px;
+    height: 20px;
+    margin-left: 37px;
+    margin-top: 37px;
+}
+
+.inputLabel2 {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.screenshotsContainer {
+    margin-bottom: 20px;
+}
+
+.screenshotContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.screenshot {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.addScreenshotButton {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addScreenshotButton:hover {
+    background-color: #218838;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between; /* Выравнивание кнопок */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+.addButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E2DFC;
+    border: none;
+    border-radius: 16px;
+    width: 134px;
+    height: 38px;
+    margin-left: auto;
+    padding: 12px 8px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.addButton:hover {
+    background-color: #6524cf;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end; /* Выравнивание кнопок по правому краю */
+    margin-top: 32px; /* Отступ сверху для кнопок */
+    margin-right: 32px;
+    gap: 8px;
+    border-radius: 16px;
+}
+
+.cancelButton {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    background-color: rgba(143, 146, 161, 0.1);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.backButton {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    background-color: rgba(143, 146, 161, 0.1);
+    color: rgb(0, 0, 0);
+    margin-right: auto; /* Это позволит кнопке "Назад" быть слева */
+    margin-left: 32px;
+    font-weight: 700;
+}
+
+.backButton:hover {
+    background-color: rgba(84, 86, 96, 0.1);
+}
+.exampleImage {
+    width: 150px;
+    height: 220px;
+    margin-left: 305px;
+}
+
+.screenshotGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; /* Отступы между изображениями */
+    margin-top: 10px;
+}
+
+.screenshotItem {
+    position: relative;
+}
+
+.screenshotGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; /* Отступы между изображениями */
+    margin-top: 10px;
+}
+
+.screenshotItem {
+    position: relative;
+}
+
+.screenshotImage {
+    width: 140px;
+    height: 79px;
+    object-fit: cover;
+}
+
+.removeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.photoRowsContainer {
+    margin-top: 20px;
+}
+
+.photoRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.photoImage {
+    width: 18%; /* Можно настроить ширину в зависимости от вашего макета */
+    height: auto;
+}

@@ -1,0 +1,305 @@
+.container {
+    display: flex;
+    margin-top: 100px; /* Offset from header */
+}
+.arrowIcon3 {
+    width: 16px;
+    height: 16px;
+}
+.backicon {
+    width: 20px;
+    height: 20px;
+}
+.container1 {
+    background-color: rgba(143, 146, 161, 0.05); /* Background color */
+    border-radius: 20px 20px 0 0; /* Rounded top corners */
+    margin-top: 32px;
+    width: 872px;
+    height: 2864px;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: flex-start; /* Align to the left */
+    margin: 40px 0 40px 48px;
+}
+
+.projectText {
+    color: rgba(143, 146, 161, 1);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 39px;
+    margin-top: 5px;
+}
+
+.container2 {
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 16px;
+    width: 824px;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: 24px;
+    flex-grow: 1; /* Это позволяет контейнеру растягиваться */
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-left: 32px;
+    box-sizing: border-box;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8F92A11A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 32px;
+}
+
+.text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.input {
+    width: 200px;
+    height: 46px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    border-radius: 16px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.input:hover {
+    border: 1px solid black;
+    height: 44px;
+}
+
+.input:focus {
+    background-color: #fff;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    gap: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(213, 211, 211);
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.item {
+    color: rgba(143, 146, 161, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px; 
+    background-color: #fff;
+    margin-left: 32px;
+}
+
+.item:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.item1 {
+    color: rgba(0, 82, 204, 1);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px; 
+    background-color: #fff;
+}
+
+.item1:hover{
+    cursor: pointer;
+}
+.text3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 32px;
+}
+.text4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 32px;
+}
+.box3 {
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    width: 761px;
+    height: 46px;
+    margin-top: 26px;
+    box-sizing: border-box;
+    
+    display: inline-block;
+}
+.box4 {
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    width: 761px;
+    height: 46px;
+    margin-top: 26px;
+    box-sizing: border-box;
+    margin-left: 32px;
+    display: inline-block;
+}
+.input1 {
+    width: 708px;
+    height: 46px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    border-radius: 16px;
+    padding-left: 15px;
+    border: 1px solid rgba(23, 23, 23, 0.6);
+    box-sizing: border-box;
+}
+
+.deleteicon {
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.text5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 82, 204, 1);
+    text-align: left;
+    margin-top: 26px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.backbtn {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    background-color: #8F92A11A;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.box5 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #fff;
+    justify-content: right;
+    margin-top: 32px; /* Сдвигает кнопки в низ */
+    margin-bottom: 32px;
+}
+
+.nextbtn {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    background-color: #7E2DFC;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.cancelbtn {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    background-color: #8F92A11A;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nextbtn:hover {
+    background-color: #6524cf;
+}
+
+.cancelbtn:hover {
+    background-color: #54565f1a;
+}
+.infoText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #171717;
+    margin: 32px 0 32px 16px;
+}
+.select1 {
+    width: 190px;
+    height: 46px;
+    padding: 11px 16px 11px 24px;
+    border-radius: 16px;
+    border: 1px solid rgba(23, 23, 23, 0.6);
+    appearance: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    background-image: url('../assets/Icon\ -\ R2.svg');
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    margin-left: 32px;
+}
+
+.selectContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.inputLabel2 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 55px;
+    color: rgba(143, 146, 161, 1);
+    margin-top: -7px;
+    position: absolute;
+    background-color: white;
+}

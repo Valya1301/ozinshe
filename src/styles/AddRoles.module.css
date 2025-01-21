@@ -1,0 +1,131 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+}
+
+.modal {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 547px;
+    height: auto;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+
+.modal h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 24px; /* Отступ снизу */
+}
+
+.modal .divider {
+    height: 1px;
+    background-color: rgba(143, 146, 161, 1);
+    opacity: 0.1;
+    margin: 23px 0; /* Отступы сверху и снизу */
+    width: 100%;
+}
+
+
+.inputContainer, .selectContainer {
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.inputLabel {
+    position: absolute;
+    left: 12px;
+    top: -5px;
+    background-color: white;
+    padding: 0 5px;
+    font-weight: 500;
+    z-index: 1;
+    font-size: 12px;
+    color: rgba(143, 146, 161, 1);
+}
+.inputLabel1 {
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    background-color: white;
+    padding: 0 5px;
+    font-weight: 500;
+    z-index: 1;
+    font-size: 12px;
+    color: rgba(143, 146, 161, 1);
+}
+
+.roleInput { /* Уникальный класс для инпута названия роли */
+    width: 484px;
+    height: 46px;
+    padding: 0 12px;
+    border: 1px solid rgba(23, 23, 23, 0.6);
+    border-radius: 16px;
+    outline: none;
+    margin-top: 16px;
+    box-sizing: border-box;
+}
+
+.roleSelect { /* Уникальный класс для селектов */
+    width: 100%;
+    height: 46px;
+    appearance: none;
+    background-image: url('../assets/Icon - R (1).svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    border-radius: 16px;
+    padding: 0 12px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.addButton {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    background-color: #7E2DFC;
+    color: white;
+    font-size: 16px;
+    margin-left: 102px;
+    box-sizing: border-box;
+    
+}
+
+.cancelButton {
+    width: 134px;
+    height: 38px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgba(143, 146, 161, 0.1);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    
+    margin-right: 102px;
+    box-sizing: border-box;
+}
+
+.addButton:hover {
+    background-color: #6524cf;
+}
+
+.cancelButton:hover {
+    background-color: rgba(84, 86, 96, 0.1);
+}

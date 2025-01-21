@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.container {
+    display: flex;
+    margin-top: 100px; /* Отступ от хедера */
+}
+
+.container1 {
+    background-color: rgba(143, 146, 161, 0.05); /* Фон */
+    border-radius: 20px 20px 0 0; /* Закругление верхних углов */
+    margin-top: 32px;
+    width: 1190px;
+    height: 2864px;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    
+    margin-top: 40px;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    padding: 6px 8px 6px 0px;
+    margin-left: 48px;
+    white-space: nowrap;
+}
+
+.text1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 6px;
+    color: #171717CC;
+    line-height: 24px;
+    margin-left: 8px;
+    padding: 10px 0px 10px 0px;;
+}
+
+.addbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7E2DFC;
+    border: none;
+    border-radius: 16px;
+    width: 120px;
+    height: 40px;
+    margin-right: 48px;
+    margin-left: auto;
+    padding: 12px 8px 12px 8px; 
+
+}
+
+.addicon {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    padding:  8px 0px 8px 12px;
+}
+
+.addtext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent;
+    padding:  4px 12px 4px 8px;
+    width: 64px;
+    height: 24px;
+    line-height: 24px;
+    
+
+
+}
+
+.addbutton:hover {
+    background-color: #6524cf;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 18px; /* Общий отступ между блоками */
+}
+.block {
+    width: 538px; /* Фиксированная ширина */
+    height: 402px; /* Фиксированная высота */
+    padding: 16px; /* Внутренние отступы */
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    box-sizing: border-box; /* Учитываем паддинги в ширину и высоту */
+}
+
+.block1 {
+    width: 506px;
+    height: 370px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.images {
+    
+        width: 100%; /* Фиксированная ширина */
+        height: 276px; /* Фиксированная высота */
+        border-radius: 8px;
+        margin-bottom: 16px;
+        
+           
+            left: calc(50% - 253px);
+            top: 3.98%;
+            bottom: 27.36%;
+            border-radius: 8px;
+    
+}
+
+
+
+.movietitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    
+    text-align: left;
+}
+
+.movietitle:hover {
+    color: #6524cf;
+    cursor: pointer;
+}
+
+.undertitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9CA3AF;
+    
+    text-align: left;
+    margin-top: 8px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between; /* Раздвигает элементы по краям */
+    margin-top: 16px; /* Помогает отодвинуть элементы вниз */
+    margin-bottom: 16px;
+}
+
+.views {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(11, 19, 42, 1);
+    margin-right: 10px; /* Отступ между текстом и иконками */
+    margin-bottom: 16px;
+}
+
+.iconContainer {
+    display: flex; /* Используем Flexbox для размещения иконок */
+    align-items: center; /* Центрируем по вертикали */
+    gap: 16px;
+        margin-bottom: 16px;
+}
+
+.blockicone, .blockicone1 {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+     /* Отступ между иконками */
+     margin-bottom: 16px;
+}
+

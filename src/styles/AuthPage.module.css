@@ -1,0 +1,146 @@
+/* Основной контейнер */
+.authContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: auto;
+    height: 740px;
+    background-color: rgba(0, 82, 204, 0.078); /* Фоновый цвет, если картинка не загружается */
+  }
+  
+  /* Контейнер с иконкой */
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Отступ между иконкой и содержимым */
+  }
+  
+  /* Иконка выхода */
+  .exitIcon {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    margin-top: 64px;
+  }
+  
+  /* Контейнер для формы входа */
+  .authContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Полупрозрачный фон для формы */
+    padding: 40px 32px 40px 32px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 387px;
+    width: 360px;
+    border-radius: 48px;
+  }
+  
+  /* Тексты */
+  .welcomeText {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-top: 0;
+  }
+  
+  .subheadingText {
+    font-size: 14px;
+    font-weight: 400;
+   margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  
+  
+  /* Контейнер для пароля с иконкой */
+  .passwordInputContainer {
+    position: relative; /* Для позиционирования глазика */
+    width: 100%; /* Полная ширина контейнера */
+  }
+  
+  .inputField {
+    width: 100%; /* Полная ширина инпута */
+    height: 46px; /* Высота инпута */
+    border: none; /* Обводка инпута */
+    border-radius: 16px; /* Сглаженные углы */
+    font-size: 14px; /* Размер текста */
+    box-sizing: border-box; /* Включаем padding в общую ширину */
+    background-color: rgba(143, 146, 161, 0.05);
+    margin-top: 32px;
+    padding: 0 0 0 24px;
+  }
+  .inputField1 {
+    width: 100%; /* Полная ширина инпута */
+    height: 46px; /* Высота инпута */
+    border: none; /* Обводка инпута */
+    border-radius: 16px; /* Сглаженные углы */
+    font-size: 14px; /* Размер текста */
+    box-sizing: border-box; /* Включаем padding в общую ширину */
+    background-color: rgba(143, 146, 161, 0.05);
+    margin-top: 12px;
+    padding: 0 0 0 24px;
+
+  }
+  
+  .eyeIcon {
+    position: absolute; /* Абсолютное позиционирование внутри контейнера */
+    top: 60%; /* Центрируем по вертикали */
+    right: 10px; /* Отступ от правого края контейнера */
+    transform: translateY(-50%); /* Смещение для центрирования */
+    cursor: pointer; /* Указатель при наведении */
+    width: 20px; /* Размер иконки */
+    height: 20px; /* Размер иконки */
+  }
+  
+  /* Кнопка "Войти" */
+  .button {
+    width: 296px;
+    height: 38px;
+    background-color: rgba(126, 45, 252, 1);
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer; /* Отступ для кнопки */
+    margin-top: 32px;
+
+    box-sizing: border-box;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.4000000059604645px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  }
+  
+  .button:hover {
+    background-color: rgb(156, 99, 247);
+  }
+  
+  /* Контейнер для ссылки "Забыли пароль?" */
+.forgotPassword {
+    margin-top: 24px; /* Отступ от кнопки "Войти" */
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .forgotPassword span {
+    color: #333; /* Цвет текста для "Забыли пароль?" */
+  }
+  
+  .restoreLink {
+    color: #007bff; /* Синий цвет для текста "Восстановить" */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .restoreLink:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+  }
+  
