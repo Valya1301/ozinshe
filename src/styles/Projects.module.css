@@ -13,6 +13,7 @@
     width: 1190px;
     height: 2864px;
     box-sizing: border-box;
+    margin-left: 252px;
 }
 .container2 {
     display: flex;

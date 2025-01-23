@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.container {
-    display: flex;
-    margin-top: 32px; /* Отступ от хедера */
-    padding-left: 206px; /* Отступ слева, равный ширине сайдбара */
-}
-
 .list {
-    margin-top: 44px;
+    margin-top: 32px;
     background-color: #fff; /* Фон для сайдбара */
     width: 250px; /* Ширина сайдбара */
-    height: 1024px; /* Высота сайдбара */
+    height: 100%; /* Высота сайдбара будет 100% от экрана */
     border-radius: 20px 0 0 20px; /* Закругление только левого угла */
-    position: relative;
+    position: fixed; /* Фиксированное позиционирование */
+    
+    left: 0; /* Закрепить сайдбар слева */
+    z-index: 1000; /* Обеспечивает, что сайдбар будет поверх остального контента */
 }
+
+.container {
+    display: flex;
+    margin-top: 20px; /* Отступ от хедера */
+    padding-left: 250px; /* Паддинг слева для учета фиксированного сайдбара */
+}
+
 
 .box1 {
     display: flex;
